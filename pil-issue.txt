@@ -1,4 +1,4 @@
- i am getting a pil (pithon image library) issue, 
+ i am getting a pil (python image library) issue, 
 
 AWS Lambda function is failing because the PIL module (specifically its _imaging submodule) isn't working correctly in the Lambda environment.
 
