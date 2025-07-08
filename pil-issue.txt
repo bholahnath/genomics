@@ -1,4 +1,4 @@
- i am getting a pil (python image library) issue, 
+ i am getting a pil (pithon image library) issue, and managed to fix it, see below how i have fix it in the lambda layer
 
 AWS Lambda function is failing because the PIL module (specifically its _imaging submodule) isn't working correctly in the Lambda environment.
 
@@ -67,3 +67,8 @@ After making these changes, save and deploy the updated Lambda function
 Test the function again to see if the error is resolved
 
 If the error persists, check the CloudWatch logs for any additional error messages or stack traces
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Issue sorted using 
+https://github.com/keithrozario/Klayers/tree/master/deployments/python3.9 to specity the layer in the code
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

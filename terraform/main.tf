@@ -24,5 +24,6 @@ module "lambda" {
   bucket_a_name = module.s3.bucket_a_name
   bucket_b_name = module.s3.bucket_b_name
   bucket_a_arn  = module.s3.bucket_a_arn
+  bucket_b_arn  = module.s3.bucket_b_arn
   bucket_a_id   = module.s3.bucket_a_id
 }
