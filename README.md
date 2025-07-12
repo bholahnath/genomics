@@ -1,5 +1,5 @@
 # === README.md ===
-# Genomics Platform Engineer Task
+# Genomics Platform Engineer
 
 ## Overview
 This repo sets up an AWS-based pipeline to clean EXIF metadata from uploaded `.jpg` files in S3. Files uploaded to `bucket-akash-a-task` are cleaned by a Lambda function and stored in `bucket-akash-b-task`.
